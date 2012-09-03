@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.017" errors="0" skipped="0" tests="1" name="My.Hello.Word.app.AppTest">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="JOB_NAME" value="manual2"/>
+    <property name="PWD" value="/"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/sbin:/usr/sbin:/bin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="7233bab797365bba0f175e45598ba426"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.6.0_25/jre/lib/resources.jar:/usr/java/jdk1.6.0_25/jre/lib/rt.jar:/usr/java/jdk1.6.0_25/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_25/jre/lib/jsse.jar:/usr/java/jdk1.6.0_25/jre/lib/jce.jar:/usr/java/jdk1.6.0_25/jre/lib/charsets.jar:/usr/java/jdk1.6.0_25/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_25/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="previous" value="N"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="PREVLEVEL" value="N"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.6.0_25-b06"/>
+    <property name="LANGSH_SOURCED" value="1"/>
+    <property name="LD_LIBRARY_PATH" value="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.6.0_25/jre/lib/amd64"/>
+    <property name="java.version" value="1.6.0_25"/>
+    <property name="user.timezone" value="US/Eastern"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="CONSOLETYPE" value="vt"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="linux"/>
+    <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.6.0_25/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2012-08-30_17-50-54"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="UPSTART_JOB" value="rc"/>
+    <property name="java.home" value="/usr/java/jdk1.6.0_25/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="2.6.32-279.1.1.el6.x86_64"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="20.0-b11"/>
+    <property name="SHLVL" value="3"/>
+    <property name="RUNLEVEL" value="5"/>
+    <property name="_" value="/usr/lib/jvm/java-1.6.0/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/java/jdk1.6.0_25/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-manual2-8"/>
+    <property name="JENKINS_SERVER_COOKIE" value="7233bab797365bba0f175e45598ba426"/>
+    <property name="HUDSON_URL" value="http://localhost/jenkins/"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/jdk1.6.0_25/jre/lib/amd64/server:/usr/java/jdk1.6.0_25/jre/lib/amd64:/usr/java/jdk1.6.0_25/jre/../lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="/usr/share/apache-maven-3.0.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main /usr/share/apache-maven-3.0.4 /var/cache/jenkins/war/WEB-INF/lib/remoting-2.16.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.2.jar 32829"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-agent-1.2.jar:/usr/share/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/usr/java/jdk1.6.0_25//bin"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/share/apache-maven-3.0.4"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/share/apache-maven-3.0.4/bin"/>
+    <property name="BUILD_URL" value="http://localhost/jenkins/job/manual2/8/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.6.0_25/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/usr/share/apache-maven-3.0.4/bin/MyHelloWord-app"/>
+    <property name="JOB_URL" value="http://localhost/jenkins/job/manual2/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/usr/share/apache-maven-3.0.4"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="JENKINS_URL" value="http://localhost/jenkins/"/>
+    <property name="GIT_BRANCH" value="origin/HEAD"/>
+    <property name="BUILD_CAUSE_USERIDCAUSE" value="true"/>
+    <property name="GIT_COMMIT" value="48cd9b7c7942d3038166e8c8c3d0d9e1193845ee"/>
+    <property name="UPSTART_INSTANCE" value=""/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.2.jar"/>
+    <property name="UPSTART_EVENTS" value="runlevel"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/jobs/manual2/workspace"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="BUILD_CAUSE" value="USERIDCAUSE"/>
+    <property name="USER" value="jenkins"/>
+    <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
+  </properties>
+  <testcase time="0.003" classname="My.Hello.Word.app.AppTest" name="testApp"/>
+</testsuite>

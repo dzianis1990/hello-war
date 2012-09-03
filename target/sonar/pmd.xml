@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset>
+  <rule ref="rulesets/naming.xml/AbstractNaming">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/android.xml/ProtectLogD">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/strictexception.xml/AvoidCatchingNPE">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/design.xml/CloseResource">
+    <priority>3</priority>
+  </rule>
+  <rule ref="rulesets/j2ee.xml/DoNotUseThreads">
+    <priority>3</priority>
+  </rule>
+</ruleset>
+
